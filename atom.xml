@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://omgteam.github.io/"/>
   <updated>2016-08-06T03:43:51.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://omgteam.github.io/</id>
   
   <author>
     <name>Junlong Liu</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Key Idea of Deep Learning</title>
-    <link href="http://yoursite.com/2016/08/06/key-dl/"/>
-    <id>http://yoursite.com/2016/08/06/key-dl/</id>
+    <link href="https://omgteam.github.io/2016/08/06/key-dl/"/>
+    <id>https://omgteam.github.io/2016/08/06/key-dl/</id>
     <published>2016-08-06T03:43:51.000Z</published>
     <updated>2016-08-06T03:43:51.000Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/08/06/hello-world/"/>
-    <id>http://yoursite.com/2016/08/06/hello-world/</id>
+    <link href="https://omgteam.github.io/2016/08/06/hello-world/"/>
+    <id>https://omgteam.github.io/2016/08/06/hello-world/</id>
     <published>2016-08-06T03:42:18.000Z</published>
     <updated>2016-08-06T03:42:18.000Z</updated>
     
