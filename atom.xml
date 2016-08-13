@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omgteam.github.io/"/>
-  <updated>2016-08-13T03:44:40.000Z</updated>
+  <updated>2016-08-13T03:47:14.000Z</updated>
   <id>https://omgteam.github.io/</id>
   
   <author>
@@ -20,17 +20,17 @@
     <link href="https://omgteam.github.io/2016/08/13/auto-car/"/>
     <id>https://omgteam.github.io/2016/08/13/auto-car/</id>
     <published>2016-08-13T02:24:25.000Z</published>
-    <updated>2016-08-13T03:44:40.000Z</updated>
+    <updated>2016-08-13T03:47:14.000Z</updated>
     
-    <content type="html"><![CDATA[<pre><code>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    <content type="html"><![CDATA[<pre><code>环境感知，规划决策是自动驾驶的重要部分。下面从学术和工业的角度分析自动驾驶离我们到底还有多远。
 </code></pre><a id="more"></a>
-<pre><code>环境感知，规划决策是自动驾驶的重要部分。下面从学术和工业的角度分析自动驾驶离我们到底还有多远。
-
-机器感知近几年在学术上有重大突破。主要贡献来自于深度学习在计算机视觉上的突破。代表性工作是深度学习在ImageNet 1000类物体分类精度超越人类的识别精度。
+<pre><code>机器感知近几年在学术上有重大突破。主要贡献来自于深度学习在计算机视觉上的突破。代表性工作是深度学习在ImageNet 1000类物体分类精度超越人类的识别精度。
 在感知之后，由感知到决策也取得重大学术进展。主要贡献来自于深度增强学习的应用。代表性工作是Google DeepMind团队设计的机器人在游戏(Atari games), 围棋(Alpha Go)上相继取得惊人成绩，在Nature上发表重量级论文。
+![logo](auto-car/drl.jpg)
 由这些学术上的新元素和传统的感知、规划决策方法配合，自动驾驶在理论上可行性大幅提高。
 
 所以，我们看到这两年在工业界，自动驾驶公司纷纷涌现。这其中包括Google, 百度等巨头公司, 也包括驭势科技、地平线机器人等创业公司。
+![logo](auto-car/gcar.jpeg)
 从这些公司的实践形式看，大致分为2条路线：
 </code></pre><h2 id="1，从驾驶辅助系统到自动驾驶系统。"><a href="#1，从驾驶辅助系统到自动驾驶系统。" class="headerlink" title="1，从驾驶辅助系统到自动驾驶系统。"></a>1，从驾驶辅助系统到自动驾驶系统。</h2><pre><code>即先保守地先利用机器感知技术的突破，增强司机的环境感知能力。然后积累更多数据、更多经验做自动驾驶系统。
 驾驶辅助系统的劣势在于不能真正实现人力解放和车辆共享。
@@ -46,7 +46,7 @@
     
     <summary type="html">
     
-      &lt;pre&gt;&lt;code&gt;qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+      &lt;pre&gt;&lt;code&gt;环境感知，规划决策是自动驾驶的重要部分。下面从学术和工业的角度分析自动驾驶离我们到底还有多远。
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
