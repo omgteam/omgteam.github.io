@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omgteam.github.io/"/>
-  <updated>2016-08-13T03:29:40.000Z</updated>
+  <updated>2016-08-13T03:30:42.000Z</updated>
   <id>https://omgteam.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>自动驾驶离我们还有多远?</title>
+    <title>自动驾驶离我们还有多远</title>
     <link href="https://omgteam.github.io/2016/08/13/auto-car/"/>
     <id>https://omgteam.github.io/2016/08/13/auto-car/</id>
     <published>2016-08-13T02:24:25.000Z</published>
-    <updated>2016-08-13T03:29:40.000Z</updated>
+    <updated>2016-08-13T03:30:42.000Z</updated>
     
     <content type="html"><![CDATA[<pre><code>环境感知，规划决策是自动驾驶的重要部分。下面从学术和工业的角度分析自动驾驶离我们到底还有多远。
 </code></pre><a id="more"></a>
