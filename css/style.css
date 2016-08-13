@@ -205,6 +205,7 @@ article .entry-content video {
 article .entry-content code,
 article .entry-content pre {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
+  word-wrap: break-word;
 }
 article .entry-content code {
   background: #eee;
@@ -243,6 +244,7 @@ article .entry-content blockquote {
   padding: 10px 25px 25px;
   position: relative;
   text-align: center;
+  word-wrap: break-word;
 }
 article .entry-content blockquote:before,
 article .entry-content blockquote:after {
