@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>智能机器人的新范式：深度强化学习 | Junlong Liu</title>
+  <meta name="author" content="Junlong Liu">
+
+  
+  <meta name="description" content="&amp;#x8FD1;&amp;#x4E24;&amp;#x5E74;&amp;#x673A;&amp;#x5668;&amp;#x667A;&amp;#x80FD;&amp;#x53D6;&amp;#x5F97;&amp;#x91CD;&amp;#x5927;&amp;#x7A81;&amp;#x7834;&amp;#xFF0C;&amp;#x50CF;&amp;#x56F4;&amp;#x68CB;&amp;#x4E5D;&amp;#x6BB5;&amp;#x9AD8;&amp;#x624B;&amp;#x674E;&amp;#x4E16;&amp;#x77F3;&amp;#x8D25;&amp;#x5317;Alpha Go&amp;#xFF0C;DeepMind&amp;#x56E2;&amp;#x961F;&amp;#x7814;&amp;#x53D1;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x4EBA;&amp;#x5728;Atari &amp;#x591A;&amp;#x9879;&amp;#x6E38;&amp;#x620F;&amp;#x4E0A;&amp;#x8D85;&amp;#x8D8A;&amp;#x4EBA;&amp;#x7C7B;&amp;#x6C34;&amp;#x5E73;&amp;#x3002;&amp;#x4E3B;&amp;#x8981;&amp;#x5F97;&amp;#x76CA;&amp;#x4E8E;&amp;#x4ECE;&amp;#x57FA;&amp;#x4E8E;&amp;#x6DF1;&amp;#x5EA6;&amp;#x5B66;&amp;#x4E60;&amp;#x7684;&amp;#x89C6;&amp;#x89C9;&amp;#x3001;&amp;#x8BED;&amp;#x97F3;&amp;#x3001;&amp;#x8BED;&amp;#x4E49;&amp;#x611F;&amp;#x77E5;&amp;#x5230;&amp;#x52A8;&amp;#x4F5C;&amp;#x53CD;&amp;#x9988;&amp;#x7684;&amp;#x6FC0;&amp;#x52B1;&amp;#x60E9;&amp;#x7F5A;&amp;#x5F3A;&amp;#x5316;&amp;#x8BAD;&amp;#x7EC3;&amp;#x6A21;&amp;#x5F0F;&amp;#x3002;&amp;#x672C;&amp;#x6587;&amp;#x4ECE;&amp;#x6982;&amp;#x5FF5;&amp;#x4E0A;&amp;#x5206;&amp;#x6790;&amp;#x6DF1;&amp;#x5EA6;&amp;#x5F3A;&amp;#x5316;&amp;#x5B66;&amp;#x4E60;&amp;#x7684;&amp;#x8981;&amp;#x70B9;&amp;#xFF0C;&amp;#x90E8;&amp;#x5206;&amp;#x6458;&amp;#x4E8E;ICML 2016 Tutorial&amp;#x91CC;&amp;#x7684;Deep Reinforcement Learning [1]&amp;#x7684;&amp;#x62A5;&amp;#x544A;&amp;#x3002;">
+  
+  
+
+  <link rel="alternate" href="/atom.xml" title="Junlong Liu" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  
+</head>
+
+<body>
+  <header id="header" class="inner"><nav>
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+      <li><a href="/about">About</a></li>
+    
+  </ul>
+</nav></header>
+  <div id="content" class="inner"><article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <header>
+    
+  
+    <h1 class="title">智能机器人的新范式：深度强化学习</h1>
+  
+
+    <time datetime="2016-08-17T02:58:14.000Z">
+  <span class="day">17</span><span class="month">Aug</span>
+</time>
+  </header>
+  <div class="entry-content">
+    
+      <p>&#x8FD1;&#x4E24;&#x5E74;&#x673A;&#x5668;&#x667A;&#x80FD;&#x53D6;&#x5F97;&#x91CD;&#x5927;&#x7A81;&#x7834;&#xFF0C;&#x50CF;&#x56F4;&#x68CB;&#x4E5D;&#x6BB5;&#x9AD8;&#x624B;&#x674E;&#x4E16;&#x77F3;&#x8D25;&#x5317;Alpha Go&#xFF0C;DeepMind&#x56E2;&#x961F;&#x7814;&#x53D1;&#x7684;&#x673A;&#x5668;&#x4EBA;&#x5728;Atari &#x591A;&#x9879;&#x6E38;&#x620F;&#x4E0A;&#x8D85;&#x8D8A;&#x4EBA;&#x7C7B;&#x6C34;&#x5E73;&#x3002;&#x4E3B;&#x8981;&#x5F97;&#x76CA;&#x4E8E;&#x4ECE;&#x57FA;&#x4E8E;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x7684;&#x89C6;&#x89C9;&#x3001;&#x8BED;&#x97F3;&#x3001;&#x8BED;&#x4E49;&#x611F;&#x77E5;&#x5230;&#x52A8;&#x4F5C;&#x53CD;&#x9988;&#x7684;&#x6FC0;&#x52B1;&#x60E9;&#x7F5A;&#x5F3A;&#x5316;&#x8BAD;&#x7EC3;&#x6A21;&#x5F0F;&#x3002;&#x672C;&#x6587;&#x4ECE;&#x6982;&#x5FF5;&#x4E0A;&#x5206;&#x6790;&#x6DF1;&#x5EA6;&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x7684;&#x8981;&#x70B9;&#xFF0C;&#x90E8;&#x5206;&#x6458;&#x4E8E;ICML 2016 Tutorial&#x91CC;&#x7684;Deep Reinforcement Learning [1]&#x7684;&#x62A5;&#x544A;&#x3002;</p>
+<a id="more"></a>
+<p>&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#xFF0C;&#x5373;&#x673A;&#x5668;&#x4EBA;&#x6839;&#x636E;&#x73AF;&#x5883;&#x91CC;&#x52A8;&#x4F5C;&#x5F97;&#x5230;&#x7684;&#x60E9;&#x7F5A;&#x548C;&#x6FC0;&#x52B1;&#x53BB;&#x81EA;&#x52A8;&#x8C03;&#x6574;&#x7B56;&#x7565;&#x3002;&#x901A;&#x8FC7;&#x8BAD;&#x7EC3;&#xFF0C;&#x673A;&#x5668;&#x4EBA;&#x5B66;&#x5230;&#x4E00;&#x7EC4;&#x7B56;&#x7565;:&#x5728;&#x73AF;&#x5883;&#x72B6;&#x6001;S&#x4E0B;&#x5E94;&#x91C7;&#x53D6;&#x52A8;&#x4F5C;A&#xFF0C;&#xFF08;&#x53EF;&#xFF09;&#x80FD;&#x83B7;&#x5F97;&#x6700;&#x5927;&#x7D2F;&#x79EF;&#x5956;&#x52B1;V&#x3002;<br><img src="/2016/08/17/drl/rl.jpg" alt="logo"><br>&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x6709;&#x4E30;&#x5BCC;&#x7684;&#x4EA4;&#x53C9;&#x5B66;&#x79D1;&#x80CC;&#x666F;&#xFF0C;&#x5305;&#x62EC;&#x7ECF;&#x6D4E;&#x5B66;&#x3001;&#x5DE5;&#x7A0B;&#x5B66;&#x3001;&#x795E;&#x7ECF;&#x79D1;&#x5B66;&#x91CC;&#x7684;&#x535A;&#x5F08;&#x8BBA;&#x3001;&#x4F18;&#x5316;&#x63A7;&#x5236;&#xFF0C;&#x6761;&#x4EF6;&#x53CD;&#x5C04;&#x7CFB;&#x7EDF;&#x3002;<br><img src="/2016/08/17/drl/mrl.jpg" alt="logo"><br>&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#xFF0C;&#x4F7F;&#x7528;&#x6DF1;&#x5EA6;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x5B9E;&#x73B0;&#x673A;&#x5668;&#x4EBA;&#x7684;&#x8BB0;&#x5FC6;&#xFF0C;&#x89C6;&#x89C9;&#x611F;&#x77E5;&#xFF0C;&#x8BED;&#x97F3;&#x8BED;&#x4E49;&#x7406;&#x89E3;&#x548C;&#x751F;&#x6210;&#x3002;&#x4ECE;&#x6982;&#x5FF5;&#x4E0A;&#x5BF9;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x7684;&#x7406;&#x89E3;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x94FE;&#x63A5;: <a href="http://toutiao.com/i6319415390225039873/&#x3002;" target="_blank" rel="external">http://toutiao.com/i6319415390225039873/&#x3002;</a></p>
+<p>&#x6DF1;&#x5EA6;&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x4EE5;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x505A;&#x611F;&#x77E5;&#xFF0C;&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x8BAD;&#x7EC3;&#x7B56;&#x7565;&#xFF0C;&#x5E76;&#x4E14;&#x4EE5;&#x6DF1;&#x5EA6;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x4F5C;&#x4E3A;&#x7B56;&#x7565;&#x8F7D;&#x4F53;&#x3002;&#x76F8;&#x6BD4;&#x4E8E;&#x4F20;&#x7EDF;&#x7684;&#x591A;&#x6A21;&#x5757;&#x7EC4;&#x5408;&#xFF0C;&#x6DF1;&#x5EA6;&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x5B9E;&#x73B0;&#x4E86;&#x4ECE;&#x611F;&#x77E5;&#x5230;&#x63A7;&#x5236;&#x7684;&#x7AEF;&#x5230;&#x7AEF;&#x76F4;&#x63A5;&#x8BAD;&#x7EC3;&#xFF0C;&#x51CF;&#x5C11;&#x4E86;&#x6A21;&#x5757;&#x95F4;&#x4FE1;&#x606F;&#x635F;&#x5931;&#x3002;</p>
+<p>&#x6700;&#x8FD1;&#x4E24;&#x5E74;&#x5728;&#x5B66;&#x672F;&#x7406;&#x8BBA;&#x4E0A;&#xFF0C;Google DeepMind&#x56E2;&#x961F;&#x5728;&#x8FDE;&#x7EED;&#x6027;&#x52A8;&#x4F5C;&#x63A7;&#x5236;[2]&#xFF0C;&#x5F02;&#x6B65;&#x8BAD;&#x7EC3;[3]&#xFF0C;&#x8BAD;&#x7EC3;&#x6846;&#x67B6;[4]&#xFF0C;&#x5206;&#x5E03;&#x5F0F;&#x8BAD;&#x7EC3;[5]&#x7B49;&#x90FD;&#x6709;&#x91CD;&#x8981;&#x7A81;&#x7834;&#xFF0C;&#x4E3A;&#x667A;&#x80FD;&#x673A;&#x5668;&#x4EBA;&#x7684;&#x7814;&#x53D1;&#x5960;&#x5B9A;&#x7406;&#x8BBA;&#x548C;&#x5B9E;&#x8DF5;&#x57FA;&#x7840;&#x3002;<br><img src="/2016/08/17/drl/dis_rl.jpg" alt="logo"></p>
+<p>&#x5728;&#x7279;&#x5B9A;&#x4EFB;&#x52A1;&#x7684;&#x5E94;&#x7528;&#x4E0A;&#xFF0C;&#x6DF1;&#x5EA6;&#x589E;&#x5F3A;&#x5B66;&#x4E60;&#x5DF2;&#x6709;&#x5E7F;&#x6CDB;&#x5B9E;&#x8DF5;&#x5C1D;&#x8BD5;&#xFF0C;&#x4F8B;&#x5982;&#x6D41;&#x6C34;&#x7EBF;&#x673A;&#x5668;&#x4EBA;&#x3002;<br>&#x5728;&#x96C6;&#x6210;&#x5E94;&#x7528;&#x4E0A;&#xFF0C;&#x6DF1;&#x5EA6;&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x5728;&#x81EA;&#x52A8;&#x9A7E;&#x9A76;&#xFF0C;&#x804A;&#x5929;&#x673A;&#x5668;&#x4EBA;[6][7]&#x90FD;&#x6709;&#x826F;&#x597D;&#x7684;&#x524D;&#x666F;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x4F7F;&#x7528;&#x5206;&#x5E03;&#x5F0F;&#x8BAD;&#x7EC3;&#x6216;&#x5F02;&#x6B65;&#x8BAD;&#x7EC3;&#xFF0C;&#x81EA;&#x52A8;&#x9A7E;&#x9A76;&#x6C7D;&#x8F66;&#x53EF;&#x4EE5;&#x591A;&#x8F86;&#x540C;&#x65F6;&#x5728;&#x5404;&#x79CD;&#x73AF;&#x5883;&#x5B66;&#x4E60;&#xFF0C;&#x5E76;&#x4E14;&#x76F8;&#x4E92;&#x4EA4;&#x6362;&#x77E5;&#x8BC6;&#xFF0C;&#x52A0;&#x901F;&#x5B66;&#x4E60;&#x8FC7;&#x7A0B;&#x3002;&#x804A;&#x5929;&#x673A;&#x5668;&#x4EBA;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5BF9;&#x8BDD;&#x8FC7;&#x7A0B;&#x4E2D;&#x7528;&#x6237;&#x7684;&#x53CD;&#x9988;&#x6765;&#x8C03;&#x6574;&#x81EA;&#x5DF1;&#x7684;&#x8BED;&#x8A00;&#x8868;&#x8FBE;&#xFF0C;&#x9010;&#x6B65;&#x6210;&#x957F;&#x3002;</p>
+<p>[1] icml.cc/2016/tutorials/deep_rl_tutorial.pdf<br>[2] 2016 ICML Continuous Deep Q-Learning with Model-based Acceleration<br>[3] 2016 ICML Asynchronous Methods for Deep Reinforcement Learning<br>[4] 2016 ICML Dueling Network Architectures for Deep Reinforcement Learning<br>[5] 2015 ICMLW Massively Parallel Methods for Deep Reinforcement Learning<br>[6] 2016 ICLR DEEP REINFORCEMENT LEARNING WITH AN ACTION SPACE DEFINED BY NATURAL LANGUAGE<br>[7] 2016 Deep Reinforcement Learning for Dialogue Generation</p>
+
+    
+    
+    <footer class="meta">
+      
+      
+      
+    </footer>
+    
+  </div>
+  
+</article></div>
+  <footer id="footer" class="inner"><div class="social alignright">
+  
+  
+  
+  
+  <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+</div>
+<p>
+  
+  &copy; 2016 Junlong Liu
+  
+</p>
+<div class="clearfix"></div></footer>
+  <script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<div id="phasebeam">
+  <canvas></canvas>
+  <canvas></canvas>
+  <canvas></canvas>
+</div>
+<script src="/js/phasebeam.js"></script>
+</body>
+</html>
