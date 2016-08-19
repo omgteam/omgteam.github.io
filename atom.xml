@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://omgteam.github.io/"/>
-  <updated>2016-08-19T07:45:06.000Z</updated>
+  <updated>2016-08-19T07:50:54.000Z</updated>
   <id>https://omgteam.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>进一步逼近人的智能：多模态机器学习</title>
+    <title>进一步接近人的智能：多模态机器学习</title>
     <link href="https://omgteam.github.io/2016/08/19/mml/"/>
     <id>https://omgteam.github.io/2016/08/19/mml/</id>
     <published>2016-08-19T03:19:04.000Z</published>
-    <updated>2016-08-19T07:45:06.000Z</updated>
+    <updated>2016-08-19T07:50:54.000Z</updated>
     
     <content type="html"><![CDATA[<p>&#x4EBA;&#x548C;&#x52A8;&#x7269;&#x901A;&#x8FC7;&#x89C6;&#x3001;&#x542C;&#x3001;&#x8BF4;&#x7B49;&#x9014;&#x5F84;&#x611F;&#x77E5;&#x548C;&#x5B66;&#x4E60;&#xFF0C;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x591A;&#x6A21;&#x6001;&#x5B66;&#x4E60;&#x3002;&#x8FD1;&#x4E9B;&#x5E74;&#xFF0C;&#x7531;&#x4E8E;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x7684;&#x53D1;&#x5C55;&#xFF0C;&#x591A;&#x6A21;&#x6001;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8FDB;&#x4E00;&#x6B65;&#x6210;&#x4E3A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x7814;&#x7A76;&#x70ED;&#x70B9;&#x3002;&#x672C;&#x6587;&#x7B80;&#x5355;&#x4ECB;&#x7ECD;&#x591A;&#x6A21;&#x6001;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x5185;&#x5BB9;&#x548C;&#x6311;&#x6218;&#xFF0C;&#x90E8;&#x5206;&#x6458;&#x4E8E;CVPR 2016 &#x548C;ACL 2016&#x7684;Tutorial Multimodal Learning and Reasoning [1], Tutorial on Multimodal Machine Learning [2]&#x3002;</p>
 <a id="more"></a>
